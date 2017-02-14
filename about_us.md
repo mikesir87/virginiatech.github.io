@@ -26,8 +26,8 @@ Some general text, for reference.
     <input class="rounded" type="email" name="_replyto" placeholder="" required><br><br>
     <b>Subject</b> <font size="2.5rem"> (required) </font><br>
     <input class="rounded" tpye="subject" name="subject" placeholder="" required><br><br>
-    <b>Message</b> <br>
-    <textarea class="rounded" rows="4" cols="40" name="message" placeholder=""></textarea><br>
+    <b>Message</b> <font size="2.5rem"> (required) </font><br>
+    <textarea class="rounded" rows="4" cols="40" name="message" placeholder="" required></textarea><br><br>
     <input type="submit" value="Send">
     <input type="hidden" name="_next" value="{{ site.baseurl }}{% link submit_success.md %}" />
 </form>
